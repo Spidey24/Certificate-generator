@@ -22,7 +22,7 @@ with open('test.csv','r') as file:
 
 #Writing a separate file for the necessary data items
 achievers_name = name[1:]
-name_txt = open('D:/Python_learning/3_Projects/Certificate-generator/ach_name.txt','w')
+name_txt = open('Your-Path/ach_name.txt','w') #Replace Your-Path with your desired path
 content = '\n'.join(achievers_name)
 name_txt.writelines(content)
 name_txt.close()
